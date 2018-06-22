@@ -1,0 +1,32 @@
+issubclass(class,classinfo)
+  class 是classinfo的子类返回True，否则返回False，一个类认为是自身的子类，第二个参数可以是元组
+isinstance(object,classinfo)
+  检查一个对象是否是一个类的实例对象，第二个参数可以是元组，如果第一个参数不是对象，永远返回False
+hasattr(object,name)
+  检查一个对象是否有指定的属性，第二个参数需用''串起
+getattr(object,name[,default]).
+  返回对象指定的属性值，如果属性不存在，可选参数有设置则返回可选参数，否则抛出异常
+setattr(object,name,value)
+  设置对象指定属性的值，如果属性不存在，则创建属性并赋值，注意name参数需用''
+delattr(object,name)
+  删除对象指定属性，如果属性不存在，抛出AttributeError异常
+property(fget=None,fset=None,fdel=None,doc=None)
+  用属性设置属性。例如：
+    class C:
+    def __init__(self,size=10)
+      self.size=size
+    def getsize(self):
+      return self.size
+    def setsize(self,value):
+      self.size=value
+    def delsize(self):
+      def self.size
+    x=property(getsziec,setsize,delsize)
+    
+    >>>c1=C()
+    >>>c1.x
+    10
+    >>>ci.x=18
+    18(ci.size=18)
+    >>>del c1.x(c1.delsize())
+  

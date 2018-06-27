@@ -1,5 +1,0 @@
-﻿Windows Registry Editor Version 5.00
-
-[HKEY_CLASSES_ROOT\SystemFileAssociations\.py\shell\Edit with IDLE\command]
-@="\"D:\\Python\\Python36\\pythonw.exe\" \"D:\\Python\\Python36\\Lib\\idlelib\\idle.pyw\" \"%1\"nw.exe\" \"D:\\Python\\Python36\\Lib\\idlelib\\idle.pyw\" \"%1"
-

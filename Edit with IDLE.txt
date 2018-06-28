@@ -1,0 +1,2 @@
+"D:\Python\Python36\pythonw.exe" "D:\Python\Python36\Lib\idlelib\idle.pyw" "%1"
+HKEY_CLASSES_ROOT\SystemFileAssociations\.py\shell\Edit with IDLE\command
